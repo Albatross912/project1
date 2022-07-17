@@ -16,11 +16,16 @@ body
      margin-left: 4%;
      margin-right: 11%;
     padding: 2px 4px;
-}
-.social #five a, #two a, #three a, #four a, #six a{
+} 
+.social #five a, #two a, #three a, #four a, #six a, #seven a, #eight a{
      color: inherit;
-     text-decoration:none    
+     text-decoration:none       
 }
+.social #seven, #eight{
+    font-weight: 600;
+    font-size: larger;
+    /* margin: 1px, 1px; */
+} 
 .foot{
     background-color: #342e2e;
     margin-bottom: 0;
@@ -54,11 +59,19 @@ body
     font-size: xx-large;
     margin: 0.3%;
     padding: 2% 2%;
+    float: inline-start;
 }
 .contact #three, #five{
     font-size: large;
     font-weight: 600;
-    margin: 2px 9px;
+    margin: 2px -15px;
+    float: inline-start;
+}
+.contact #four{
+    margin-left: 2%;
+}
+.contact #five{
+    margin-left: -1%;
 }
 .contact #two, #four{
     font-size: xx-large;
